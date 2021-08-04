@@ -4,10 +4,10 @@ employee database analysis
 ## Overview of Project
 
 ### Background
-Maria, a member of the PyCitySchools district board, requested an analysis of the district's math and reading scores this year with the help of Python in Jupyter Notebooks. The deliverables for this project included an analysis of scores based on several factors including school, school spending per student, school size, school type and grade level. Additionally, due to evidence of academic dishonesty of 9th graders at Thomas High School, the script needed to re-run the audit with those scores removed to compare the score summaries. 
+Bobby, an employee at Pewlett-Hackard, requested an analysis of the company's growing retirement-ready population with the help of SQL scripts in PostGressql using PGAdmin4 to deliver to his manager, who wants to understand how the growing number of retirement-ready employees (the 'silver tsunami') will affect their business. The deliverables for this project included a count of retiring employees based on title, and a list of employees who are now eligible for mentorship programs. 
 
 ### Purpose
-As an introduction to Jupyter Notebook, the purpose of this project was to utilize Pandas DataFrames with Python to complete the analysis. Since the script needed to be refactored, it gave extra opportunity to practice using Pandas DataFrames, such as loc, merge and groupby, to wrangle data. 
+As an introduction to SQL, the purpose of this project was to utilize queries in PGAdmin4 with PostGressql to create and analyze an employee database. Since the raw data included multiple csvs that housed employee and department data, the analysis required table JOINs and multiple csv import/exports in PgAdmin4. 
 
 
 ## Results
