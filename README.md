@@ -11,7 +11,6 @@ As an introduction to SQL, the purpose of this project was to utilize queries in
 
 
 ## Results
-Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
 * **Result 1: Retirement_Titles**
   - The first major point from the analysis is the collection of all the employees who were born between 1952 and 1955 into a single table. This gives us a sense of the magnitude of the retiring community at Pewlett-Hackard. 
@@ -33,17 +32,18 @@ Provide a bulleted list with four major points from the two analysis deliverable
 ## Summary
 90,398 roles will have to be filled as the "silver tsunami" begins to make an impact. This was calculated by counting all of the unique employee numbers in the unique_titles table. Additionally, this was the same as the summation of the counts in the retiring_titles table. 
 
-There are only 1,549 eligible mentors in the mentorship_eligibility table (found by counting the number of distinct employee numbers who were born in 1965 and currently work at the company.) 1,549 eligible mentors is not enough to mentor the next generation of Pewlett Hackard employees because approximately 90,398 roles will have to be filled based on the number of retirement aged employees expected to retire soon. If mentorship eligibility table expanded to include mentors born from 1956 to 1965, then maybe there would be enough mentors to prepare the next generation of employees. 
+There are only 1,549 eligible mentors in the mentorship_eligibility table (found by counting the number of distinct employee numbers who were born in 1965 and currently work at the company.) 1,549 eligible mentors is not enough to mentor the next generation of Pewlett Hackard employees because approximately 90,398 roles will have to be filled based on the number of retirement aged employees expected to retire soon. If mentorship eligibility table expanded to include mentors born in more years, then maybe there would be enough mentors to prepare the next generation of employees. 
 
 Based on the data summary, I have provided two additional queries that may help the company prepare for the upcoming "silver tsunami."
 
-* Additional Query 1: Retiring Employee Count by Department Name
+* **Additional Query 1: Retiring Employee Count by Department Name**
 After adding an additional query to check for employee count by department name, now we can see that the department with the most expected retirements is Development (23,525 employees.) As a check, I also made sure that the sum of retiring counts by department also added to 90,398 like the other queries. 
 <img width="502" alt="Screen Shot 2021-08-06 at 3 53 21 PM" src="https://user-images.githubusercontent.com/85946042/128569973-246b04f2-843d-4ec0-b53b-a2de7f352fe4.png">
 <img width="227" alt="Screen Shot 2021-08-06 at 3 53 27 PM" src="https://user-images.githubusercontent.com/85946042/128569979-803bc787-e96f-4328-8219-619d40e00854.png">
 
-* Additional Query 2: Expanding mentorship eligibility qualifications to current employees born between 1956 and 1965. 
-After updating the query to include employees born between 1956 and 1965 to mentor employees, the count of mentors increases to 259,194 mentors. This size mentorship program would be enough to prepare for the 90,398 positions that are going to open with the upcoming expected retirements. 
+* **Additional Query 2: Expanding mentorship eligibility qualifications to current employees born between 1956 and 1965.** 
+After updating the query to include employees born between 1956 and 1965 to mentor employees, the count of mentors increases to 259,194 mentors. This size mentorship program would be enough to prepare for the 90,398 positions that are going to open with the upcoming expected retirements. I chose the birth date years 1956 to 1965 because 1965 was considered the youngest age to be eligible by mentorship and employees born at or before 1955 were expected to retire, which leaves the 1956-1965 range as nearing retirement but still working and eligible to be mentors. 
+
 <img width="479" alt="Screen Shot 2021-08-06 at 3 27 11 PM" src="https://user-images.githubusercontent.com/85946042/128567582-f80a0aff-a04d-4e2f-b6f2-b4717176f0e5.png">
 <img width="90" alt="Screen Shot 2021-08-06 at 3 27 19 PM" src="https://user-images.githubusercontent.com/85946042/128567593-4bd48146-934a-4968-9b70-deccb64880fc.png">
 
