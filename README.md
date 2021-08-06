@@ -18,7 +18,7 @@ Provide a bulleted list with four major points from the two analysis deliverable
 <img width="391" alt="Screen Shot 2021-08-06 at 12 04 37 PM" src="https://user-images.githubusercontent.com/85946042/128547082-de3586f5-12f4-41cf-a6d6-ccb6831501bc.png">
 
 * **Result 2: Unique_Titles**
-  - The second major point from the analysis is the collection of all the distinct employees, which removes all duplicate employees from the retirement titles table and keeps the most current title that each employee had at P-H. Here we get a better grasp on the size of the retiring employees population (499,996 employees). 
+  - The second major point from the analysis is the collection of all the distinct employees, which removes all duplicate employees from the retirement titles table and keeps the most current title that each employee had at P-H. Here we get a better grasp on the size of the retiring employees population (90,398 employees). 
 <img width="285" alt="Screen Shot 2021-08-06 at 12 05 27 PM" src="https://user-images.githubusercontent.com/85946042/128547091-40d5262d-7276-41c7-a141-e3ebab18dc49.png">
 
 * **Result 3: Retiring_Titles**
@@ -31,9 +31,19 @@ Provide a bulleted list with four major points from the two analysis deliverable
 
 
 ## Summary
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+90,398 roles will have to be filled as the "silver tsunami" begins to make an impact. This was calculated by counting all of the unique employee numbers in the unique_titles table. Additionally, this was the same as the summation of the counts in the retiring_titles table. 
 
-then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami.":
-* Additional Query 1:
-* Additional Query 2:
+There are only 1,549 eligible mentors in the mentorship_eligibility table (found by counting the number of distinct employee numbers who were born in 1965 and currently work at the company.) 1,549 eligible mentors is not enough to mentor the next generation of Pewlett Hackard employees because approximately 90,398 roles will have to be filled based on the number of retirement aged employees expected to retire soon. If mentorship eligibility table expanded to include mentors born from 1956 to 1965, then maybe there would be enough mentors to prepare the next generation of employees. 
+
+Based on the data summary, I have provided two additional queries that may help the company prepare for the upcoming "silver tsunami."
+
+* Additional Query 1: Retiring Employee Count by Department Name
+After adding an additional query to check for employee count by department name, now we can see that the department with the most expected retirements is Development. 
+<img width="287" alt="Screen Shot 2021-08-06 at 2 51 13 PM" src="https://user-images.githubusercontent.com/85946042/128564365-4e2a3d06-8ed3-4d32-92dc-b9a84c36342e.png">
+<img width="218" alt="Screen Shot 2021-08-06 at 2 51 06 PM" src="https://user-images.githubusercontent.com/85946042/128564376-411f0fa7-9666-4e20-9e47-ae185c01b402.png">
+
+* Additional Query 2: Expanding mentorship eligibility qualifications to current employees born between 1956 and 1965. 
+After updating the query to include employees born between 1956 and 1965 to mentor employees, the count of mentors increases to 259,194 mentors. This size mentorship program would be enough to prepare for the 90,398 positions that are going to open with the upcoming expected retirements. 
+<img width="479" alt="Screen Shot 2021-08-06 at 3 27 11 PM" src="https://user-images.githubusercontent.com/85946042/128567582-f80a0aff-a04d-4e2f-b6f2-b4717176f0e5.png">
+<img width="90" alt="Screen Shot 2021-08-06 at 3 27 19 PM" src="https://user-images.githubusercontent.com/85946042/128567593-4bd48146-934a-4968-9b70-deccb64880fc.png">
+
