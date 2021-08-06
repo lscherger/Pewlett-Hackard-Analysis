@@ -38,9 +38,9 @@ There are only 1,549 eligible mentors in the mentorship_eligibility table (found
 Based on the data summary, I have provided two additional queries that may help the company prepare for the upcoming "silver tsunami."
 
 * Additional Query 1: Retiring Employee Count by Department Name
-After adding an additional query to check for employee count by department name, now we can see that the department with the most expected retirements is Development. 
-<img width="287" alt="Screen Shot 2021-08-06 at 2 51 13 PM" src="https://user-images.githubusercontent.com/85946042/128564365-4e2a3d06-8ed3-4d32-92dc-b9a84c36342e.png">
-<img width="218" alt="Screen Shot 2021-08-06 at 2 51 06 PM" src="https://user-images.githubusercontent.com/85946042/128564376-411f0fa7-9666-4e20-9e47-ae185c01b402.png">
+After adding an additional query to check for employee count by department name, now we can see that the department with the most expected retirements is Development (23,525 employees.) As a check, I also made sure that the sum of retiring counts by department also added to 90,398 like the other queries. 
+<img width="502" alt="Screen Shot 2021-08-06 at 3 53 21 PM" src="https://user-images.githubusercontent.com/85946042/128569973-246b04f2-843d-4ec0-b53b-a2de7f352fe4.png">
+<img width="227" alt="Screen Shot 2021-08-06 at 3 53 27 PM" src="https://user-images.githubusercontent.com/85946042/128569979-803bc787-e96f-4328-8219-619d40e00854.png">
 
 * Additional Query 2: Expanding mentorship eligibility qualifications to current employees born between 1956 and 1965. 
 After updating the query to include employees born between 1956 and 1965 to mentor employees, the count of mentors increases to 259,194 mentors. This size mentorship program would be enough to prepare for the 90,398 positions that are going to open with the upcoming expected retirements. 
