@@ -13,7 +13,7 @@ As an introduction to SQL, the purpose of this project was to utilize queries in
 ## Results
 
 * **Result 1: Retirement_Titles**
-  - The first major point from the analysis is the collection of all the employees who were born between 1952 and 1955 into a single table. This gives us a sense of the magnitude of the retiring community at Pewlett-Hackard. 
+  - The first major point from the analysis is the collection of all the employees who were born between 1952 and 1955 into a single table. This gives us a sense of the magnitude of the retiring community at Pewlett-Hackard. As the table shows, some employees had multiple roles at P-H, so there are duplicate rows.
 <img width="391" alt="Screen Shot 2021-08-06 at 12 04 37 PM" src="https://user-images.githubusercontent.com/85946042/128547082-de3586f5-12f4-41cf-a6d6-ccb6831501bc.png">
 <img width="502" alt="Screen Shot 2021-08-06 at 4 00 48 PM" src="https://user-images.githubusercontent.com/85946042/128570636-ef3ba574-e409-4e18-8245-c610a9dffa21.png">
 
